@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.curso.gamemap" >
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.curso.gamemap.ServiciosWebApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icono"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.curso.gamemap.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.curso.gamemap.MapActivity"
+            android:screenOrientation="landscape"
+            android:label="Map">
+        </activity>
+        <activity
+            android:name="com.curso.gamemap.SelectActivity"
+            android:label="TeamSelect" >
+        </activity>
+        <activity
+            android:name="com.curso.gamemap.PuntuationActivity"
+            android:label="Brujula" >
+        </activity>
+        <activity
+            android:name="com.curso.gamemap.ListaJugadoresActivity"
+            android:label="ListaJugadores" >
+        </activity>
+        <activity
+            android:name="com.curso.gamemap.NuevoJugadorActivity"
+            android:label="ListaJugadores" >
+        </activity>
+
+    </application>
+
+</manifest>

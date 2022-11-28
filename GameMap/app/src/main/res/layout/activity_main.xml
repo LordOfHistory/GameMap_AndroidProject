@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Bienvenido jugador"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar equipo"
+        android:id="@+id/selec"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="Ir_Select"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/mapa"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:onClick="Ir_Mapa"
+        android:text="Mapa" />
+
+    <Button
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:text="UAV"
+        android:id="@+id/uav"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="Ir_UAV"
+        android:layout_marginTop="20dp" />
+
+    <Buttonp
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:text="Lista jugadores"
+        android:id="@+id/lista"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="Ir_ListaJugadores"
+        android:layout_marginTop="20dp" />
+
+
+
+    <Button
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:text="Puntuación"
+        android:id="@+id/puntuacion"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:onClick="Ir_Puntuacion"
+        android:layout_marginTop="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
